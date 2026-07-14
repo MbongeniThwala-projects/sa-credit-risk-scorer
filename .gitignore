@@ -1,0 +1,9 @@
+# Data files - never commit
+*.duckdb
+*.duckdb.wal
+*.csv
+
+# Common Junk
+.DS_Store
+__pycache__/
+*.pyc
