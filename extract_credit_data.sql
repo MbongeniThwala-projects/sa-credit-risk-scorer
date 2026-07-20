@@ -14,7 +14,7 @@
 
 CREATE SCHEMA IF NOT EXISTS bank_production;
 
-CREATE TABLE bank_production.cleint_credit_history(
+CREATE TABLE bank_production.client_credit_history(
 	client_id INTEGER PRIMARY KEY,
 	age INTEGER CHECK (age >= 18 AND age <= 100),
 	monthly_income DECIMAL(10, 2) CHECK (monthly_income >= 0),
@@ -25,4 +25,3 @@ CREATE TABLE bank_production.cleint_credit_history(
 	defualt_flag BOOLEAN NOT NULL,
 	record_date DATE NOT NULL DEFAULT CURRENT_DATE
 );
-
