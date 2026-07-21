@@ -2,8 +2,10 @@
 *.duckdb
 *.duckdb.wal
 *.csv
+*.pkl
 
 # Common Junk
 .DS_Store
 __pycache__/
 *.pyc
+install.sh
